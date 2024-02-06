@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+{/* Testing */}
+
 const MoodQuestion = () => {
   return (
     <div className="flex justify-center items-center h-screen">
@@ -26,7 +28,7 @@ const MoodQuestion = () => {
                             I'm sad and want to feel worse                          
                         </Link>
                         <Link to="/spooky-scary" className="text-xl mx-4 p-3 rounded-md outline outline-white outline-3 hover:bg-white hover:text-teal-300">
-                            It's Spooky time                     
+                            It's Spooky time                    
                         </Link>
                     </div>
             </div>
